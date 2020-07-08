@@ -15,6 +15,7 @@ func WordCount(s string) map[string]int {
 	return wordCount
 }
 
+
 func main() {
 	wc.Test(WordCount)
 }

@@ -12,6 +12,7 @@ func (reader MyReader) Read(rb []byte) (n int, e error) {
 	return
 }
 
+
 func main() {
 reader.Validate(MyReader{})
 }
